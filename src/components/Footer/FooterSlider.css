@@ -1,0 +1,16 @@
+.Slider .Slider-track {
+  animation: Slider 20s linear infinite;
+  width: calc(560px * 10);
+}
+@keyframes Slider {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-560px * 3.3));
+  }
+}
+.Slide {
+  width: 560px;
+  height: 50px;
+}
