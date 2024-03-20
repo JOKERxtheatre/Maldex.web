@@ -2,11 +2,12 @@ import "@/components/Footer/FooterSlider.css";
 
 const FooterSlider = () => {
   return (
-    <div className="Footer-Slider w-full flex relative py-3 bg-[#00B6BA]">
+    <div className="Footer-Slider w-[1440px] sm:w-[392px] flex relative py-3 bg-[#00B6BA] sm:py-0">
       <div className="Slider  w-full overflow-hidden">
-        <div className="Slider-track  flex w-full overflow-hidden gap-14">
+        <div className="Slider-track  flex w-full overflow-hidden gap-14 sm:gap-0">
           <a href="/" className="Slide flex gap-4 items-center justify-center">
             <svg
+              className="sm:w-[27px] sm:h-[27px]"
               width="50.000000"
               height="50.000000"
               viewBox="0 0 50 50"
@@ -109,12 +110,13 @@ const FooterSlider = () => {
                 fill-rule="evenodd"
               />
             </svg>
-            <h1 className="text-4xl uppercase font-medium leading-[39px] mt-1 text-white">
+            <h1 className="text-4xl uppercase font-medium leading-[39px] mt-1 text-white sm:text-lg sm:leading-[22px]">
               Эксклюзив на Maldex ➔
             </h1>
           </a>
           <a href="/" className="Slide flex gap-4 items-center justify-center">
             <svg
+              className="sm:w-[27px] sm:h-[27px]"
               width="50.000000"
               height="50.000000"
               viewBox="0 0 50 50"
@@ -217,12 +219,13 @@ const FooterSlider = () => {
                 fill-rule="evenodd"
               />
             </svg>
-            <h1 className="text-4xl uppercase font-medium leading-[39px] mt-1 text-white">
+            <h1 className="text-4xl uppercase font-medium leading-[39px] mt-1 text-white sm:text-lg sm:leading-[22px]">
               Только на Maldex ➔
             </h1>
           </a>
           <a href="/" className="Slide flex gap-4 items-center justify-center">
             <svg
+              className="sm:w-[27px] sm:h-[27px]"
               width="50.000000"
               height="50.000000"
               viewBox="0 0 50 50"
@@ -325,12 +328,13 @@ const FooterSlider = () => {
                 fill-rule="evenodd"
               />
             </svg>
-            <h1 className="text-4xl uppercase font-medium leading-[39px] mt-1 text-white">
+            <h1 className="text-4xl uppercase font-medium leading-[39px] mt-1 text-white sm:text-lg sm:leading-[22px]">
               Эксклюзив на Maldex ➔
             </h1>
           </a>
           <a href="/" className="Slide flex gap-4 items-center justify-center">
             <svg
+              className="sm:w-[27px] sm:h-[27px]"
               width="50.000000"
               height="50.000000"
               viewBox="0 0 50 50"
@@ -433,12 +437,13 @@ const FooterSlider = () => {
                 fill-rule="evenodd"
               />
             </svg>
-            <h1 className="text-4xl uppercase font-medium leading-[39px] mt-1 text-white">
+            <h1 className="text-4xl uppercase font-medium leading-[39px] mt-1 text-white sm:text-lg sm:leading-[22px]">
               Только на Maldex ➔
             </h1>
           </a>
           <a href="/" className="Slide flex gap-4 items-center justify-center">
             <svg
+              className="sm:w-[27px] sm:h-[27px]"
               width="50.000000"
               height="50.000000"
               viewBox="0 0 50 50"
@@ -541,12 +546,13 @@ const FooterSlider = () => {
                 fill-rule="evenodd"
               />
             </svg>
-            <h1 className="text-4xl uppercase font-medium leading-[39px] mt-1 text-white">
+            <h1 className="text-4xl uppercase font-medium leading-[39px] mt-1 text-white sm:text-lg sm:leading-[22px]">
               Эксклюзив на Maldex ➔
             </h1>
           </a>
           <a href="/" className="Slide flex gap-4 items-center justify-center">
             <svg
+              className="sm:w-[27px] sm:h-[27px]"
               width="50.000000"
               height="50.000000"
               viewBox="0 0 50 50"
@@ -649,12 +655,13 @@ const FooterSlider = () => {
                 fill-rule="evenodd"
               />
             </svg>
-            <h1 className="text-4xl uppercase font-medium leading-[39px] mt-1 text-white">
+            <h1 className="text-4xl uppercase font-medium leading-[39px] mt-1 text-white sm:text-lg sm:leading-[22px]">
               Только на Maldex ➔
             </h1>
           </a>
           <a href="/" className="Slide flex gap-4 items-center justify-center">
             <svg
+              className="sm:w-[27px] sm:h-[27px]"
               width="50.000000"
               height="50.000000"
               viewBox="0 0 50 50"
@@ -757,12 +764,13 @@ const FooterSlider = () => {
                 fill-rule="evenodd"
               />
             </svg>
-            <h1 className="text-4xl uppercase font-medium leading-[39px] mt-1 text-white">
+            <h1 className="text-4xl uppercase font-medium leading-[39px] mt-1 text-white sm:text-lg sm:leading-[22px]">
               Эксклюзив на Maldex ➔
             </h1>
           </a>
           <a href="/" className="Slide flex gap-4 items-center justify-center">
             <svg
+              className="sm:w-[27px] sm:h-[27px]"
               width="50.000000"
               height="50.000000"
               viewBox="0 0 50 50"
@@ -865,12 +873,13 @@ const FooterSlider = () => {
                 fill-rule="evenodd"
               />
             </svg>
-            <h1 className="text-4xl uppercase font-medium leading-[39px] mt-1 text-white">
+            <h1 className="text-4xl uppercase font-medium leading-[39px] mt-1 text-white sm:text-lg sm:leading-[22px]">
               Только на Maldex ➔
             </h1>
           </a>
           <a href="/" className="Slide flex gap-4 items-center justify-center">
             <svg
+              className="sm:w-[27px] sm:h-[27px]"
               width="50.000000"
               height="50.000000"
               viewBox="0 0 50 50"
@@ -973,7 +982,7 @@ const FooterSlider = () => {
                 fill-rule="evenodd"
               />
             </svg>
-            <h1 className="text-4xl uppercase font-medium leading-[39px] mt-1 text-white">
+            <h1 className="text-4xl uppercase font-medium leading-[39px] mt-1 text-white sm:text-lg sm:leading-[22px]">
               Эксклюзив на Maldex ➔
             </h1>
           </a>

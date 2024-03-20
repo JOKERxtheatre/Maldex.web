@@ -13,7 +13,7 @@ import Why from "./components/Why/Why";
 
 function App() {
   return (
-    <div className="App w-full">
+    <div className="App w-full max-w-[1440px]  flex flex-col items-center justify-center">
       <Navbar />
       <AksiyaSlider />
       <PProducts />

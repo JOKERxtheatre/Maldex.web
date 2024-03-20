@@ -1,15 +1,15 @@
 const WhoAreWe = () => {
   return (
-    <div className="WhoWeAre-section flex w-full px-10 mt-10">
+    <div className="WhoWeAre-section flex w-full px-6 mt-10 sm:px-4">
       <div className="WhoWeAre flex flex-col gap-2.5">
-        <h1 className="text-4xl font-medium text-[#0000B0] leading-[64px]">
+        <h1 className="text-4xl font-medium text-[#0000B0] leading-[64px] sm:text-2xl">
           Кто мы?
         </h1>
-        <div className="px-20 flex flex-col gap-2.5">
-          <h2 className="text-2xl leading-[64px] font-normal">
+        <div className="px-20 flex flex-col gap-2.5 sm:px-0">
+          <h2 className="text-2xl leading-[64px] font-normal sm:text-lg">
             Позвольте нам представить себя:
           </h2>
-          <ul className="flex flex-col gap-5">
+          <ul className="flex flex-col gap-5 sm:text-sm">
             <div className="">
               <span className="w-1.5 rounded-full bg-[#0000B0] h-1.5 mt-2 absolute"></span>
               <li className="ml-4">

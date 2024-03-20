@@ -19,7 +19,7 @@ const AksiyaSlider = () => {
             </h4>
             <Button
               variant={"outline"}
-              className="border-black border-2 h-6 uppercase flex items-center justify-center hover:text-white hover:bg-black"
+              className="border-black border-2 h-6 uppercase flex items-center justify-center hover:text-white hover:bg-black sm:hidden"
             >
               подробнее
             </Button>
@@ -31,7 +31,7 @@ const AksiyaSlider = () => {
             </h4>
             <Button
               variant={"outline"}
-              className="border-black border-2 h-5 uppercase flex items-center justify-center hover:text-white hover:bg-black"
+              className="border-black border-2 h-5 uppercase flex items-center justify-center hover:text-white hover:bg-black sm:hidden"
             >
               подробнее
             </Button>
@@ -43,14 +43,14 @@ const AksiyaSlider = () => {
             </h4>
             <Button
               variant={"outline"}
-              className="border-black border-2 h-5 uppercase flex items-center justify-center hover:text-white hover:bg-black"
+              className="border-black border-2 h-5 uppercase flex items-center justify-center hover:text-white hover:bg-black sm:hidden"
             >
               подробнее
             </Button>
           </CarouselItem>
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className="sm:translate-x-[66px]" />
+        <CarouselNext className="sm:-translate-x-[66px]" />
       </Carousel>
     </div>
   );

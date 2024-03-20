@@ -14,3 +14,21 @@
   width: 560px;
   height: 50px;
 }
+@media (max-width: 392px) {
+  .Slider .Slider-track {
+    animation: Slider 20s linear infinite;
+    width: calc(290px * 10);
+  }
+  @keyframes Slider {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-290px * 3.3));
+    }
+  }
+  .Slide {
+    width: 290px;
+    height: 50px;
+  }
+}

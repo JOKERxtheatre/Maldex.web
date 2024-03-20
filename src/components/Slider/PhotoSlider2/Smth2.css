@@ -1,3 +1,9 @@
 .slick-slider .slick-dots {
   margin-left: 520px;
 }
+@media (max-width: 391px) {
+  .slick-slider .slick-dots {
+    margin-left: 220px;
+    transform: translateY(8px);
+  }
+}

@@ -15,7 +15,7 @@ import { Slider } from "../ui/slider";
 const Navbar = () => {
   return (
     <div className="Navbar-section">
-      <div className="Navbar flex min-h-[60px] items-center w-full justify-between px-10 border-b-2 border-zinc-200">
+      <div className="Navbar flex min-h-[60px] items-center w-full justify-between px-6 border-b-2 border-zinc-200 sm:px-4">
         <div className="Logo-info flex gap-5">
           <div className="info flex gap-5">
             <div className="logo items-center flex">
@@ -67,7 +67,7 @@ const Navbar = () => {
                 />
               </svg>
 
-              <p className="text-sm font-normal">8-800-333-6784</p>
+              <p className="text-sm font-normal sm:hidden">8-800-333-6784</p>
             </div>
             <div className="info-envelope flex gap-3 items-center">
               <svg
@@ -90,11 +90,11 @@ const Navbar = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-              <p className="text-sm font-normal">
+              <p className="text-sm font-normal sm:hidden">
                 <a href="info@maldex.ru">info@maldex.ru</a>
               </p>
             </div>
-            <div className="info-place flex gap-3 items-center">
+            <div className="info-place flex gap-3 items-center sm:hidden">
               <svg
                 width="20"
                 height="20"
@@ -115,7 +115,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <div className="min-price flex items-center">
+        <div className="min-price flex items-center sm:hidden">
           <p
             className="text-xs font-medium"
             style={{
@@ -126,7 +126,7 @@ const Navbar = () => {
           </p>
         </div>
         <div className="Navbar-end flex items-center gap-4">
-          <ul className="flex text-sm  capitalize gap-6">
+          <ul className="flex text-sm  capitalize gap-6 sm:hidden">
             <li className="hover:text-[#EC1026] ease-in duration-150">
               <a href="/">Доставка</a>
             </li>
@@ -138,6 +138,7 @@ const Navbar = () => {
             </li>
           </ul>
           <svg
+            className="sm:hidden"
             width="20"
             height="20"
             viewBox="0 0 20 20"
@@ -161,11 +162,11 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="Navbar-search-section h-20 flex items-center px-10 gap-8">
-        <div className="Nav-search-start flex gap-5 w-full">
-          <Menubar className="bg-[#EC1026] border-[#EC1026] w-[120px] rounded-xl hover:bg-[#982f39] hover:border-[#982f39] ease-linear duration-150">
+      <div className="Navbar-search-section h-20 flex items-center px-6 gap-8 sm:w-full sm:gap-0 sm:px-4">
+        <div className="Nav-search-start flex gap-5 w-full sm:gap-4">
+          <Menubar className="bg-[#EC1026] border-[#EC1026] w-[120px] rounded-xl hover:bg-[#982f39] hover:border-[#982f39] ease-linear duration-150 sm:p-0 sm:w-[40px]">
             <MenubarMenu>
-              <MenubarTrigger className="text-white text-lg font-medium rounded-xl gap-2 flex items-center focus:bg-[#EC1026] focus:text-white data-[state=open]:bg-[#ff5667] data-[state=open]:border-[#ff5667] data-[state=open]:text-white ease-linear duration-150">
+              <MenubarTrigger className="text-white text-lg font-medium rounded-xl gap-2 flex items-center focus:bg-[#EC1026] focus:text-white data-[state=open]:bg-[#ff5667] data-[state=open]:border-[#ff5667] data-[state=open]:text-white ease-linear duration-150 sm:p-0">
                 <svg
                   width="23"
                   height="23"
@@ -192,7 +193,7 @@ const Navbar = () => {
                     stroke-linecap="square"
                   />
                 </svg>
-                Каталог
+                <span className="sm:hidden">Каталог</span>
               </MenubarTrigger>
               <MenubarContent>
                 <MenubarItem>
@@ -209,7 +210,7 @@ const Navbar = () => {
               </MenubarContent>
             </MenubarMenu>
           </Menubar>
-          <Menubar>
+          <Menubar className="sm:hidden">
             <MenubarMenu>
               <MenubarTrigger className="hover:bg-[#e3e3e3] ease-linear duration-150">
                 <svg
@@ -242,9 +243,9 @@ const Navbar = () => {
               </MenubarContent>
             </MenubarMenu>
           </Menubar>
-          <div className="input-search flex w-[963px] bg-[#EC1026] h-9 rounded-xl relative">
+          <div className="input-search flex max-w-[963px] w-full bg-[#EC1026] h-9 rounded-xl relative">
             <Input
-              className="pl-14 bg-none group placeholder:text-xs placeholder:opacity-[30%] placeholder:text-black placeholder:font-semibold"
+              className="w-[883px] pl-14 bg-none group placeholder:text-xs placeholder:opacity-[30%] placeholder:text-black placeholder:font-semibold sm:w-[266px]"
               placeholder="(Например: термокружка)"
             />
             <p className="absolute text-sm font-bold  mt-[8px] ml-2.5 select-none">
@@ -252,7 +253,7 @@ const Navbar = () => {
             </p>
             <Button
               variant={"catalog"}
-              className="w-20 flex items-center justify-center h-9 hover:bg-transparent"
+              className="w-20 flex items-center justify-center h-9 hover:bg-transparent sm:w-9 sm:p-0 sm:pr-1"
             >
               <svg
                 width="22"
@@ -279,7 +280,7 @@ const Navbar = () => {
             </Button>
           </div>
         </div>
-        <div className="Nav-search-end flex w-full h-9 gap-7">
+        <div className="Nav-search-end flex w-full h-9 gap-7 sm:hidden">
           <div className="flex gap-2 justify-center">
             <h1 className="text-[28px] leading-[35px] font-light text-[#EC1026] underline-[10px] hover:underline items-center">
               <a href="/">new</a>
